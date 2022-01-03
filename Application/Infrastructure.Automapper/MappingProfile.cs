@@ -1,18 +1,9 @@
 ﻿namespace AutoMapperConfiguration
 {
     using AutoMapper;
-    //using Junjuria.Common.Interfaces.AutoMapper;
-    //using Junjuria.DataTransferObjects.Admin.Products;
-    //using Junjuria.DataTransferObjects.Orders;
-    //using Junjuria.DataTransferObjects.Products;
-    //using Junjuria.DataTransferObjects.ViewComponents;
-    //using Junjuria.Infrastructure.Models;
-    //using Junjuria.Infrastructure.Models.Enumerations;
     using System;
     using System.Linq;
     using System.Text;
-
-
     public class MappingProfile : Profile
     {
         private readonly string confName = "con";

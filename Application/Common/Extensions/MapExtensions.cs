@@ -3,9 +3,7 @@
     using AutoMapper;
     using AutoMapper.QueryableExtensions;
     using AutoMapperConfiguration;
-    using System.Collections.Generic;
     using System.Linq;
-    using System.Reflection;
 
     public static class MapExtensions
     {
@@ -23,6 +21,5 @@
         {
             return query.ProjectTo<TDestination>(mapcfg);
         }
-
     }
 }
