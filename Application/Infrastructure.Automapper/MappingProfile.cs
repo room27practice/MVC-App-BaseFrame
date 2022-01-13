@@ -1,6 +1,7 @@
 ﻿namespace AutoMapperConfiguration
 {
     using AutoMapper;
+    using Infrastructure.DTO;
     using System;
     using System.Linq;
     using System.Text;
@@ -16,6 +17,8 @@
             CreateMapToMappings(allTypes);
             CreateMapFromMappings(allTypes);
 
+            //CreateMap<UserInDTO, AppUser>();
+          
 
             /* Example of making a custum mapping settings
             CreateMap<Product, ProductForManagingOutDto>()

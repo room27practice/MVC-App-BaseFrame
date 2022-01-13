@@ -8,4 +8,9 @@
     <PackageReference Include="AutoMapper" Version="10.1.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure.DTO\Infrastructure.DTO.csproj" />
+    <ProjectReference Include="..\Infrastructure.Model\Infrastructure.Models.csproj" />
+  </ItemGroup>
+
 </Project>

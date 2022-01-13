@@ -26,7 +26,6 @@ namespace Application
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            
             var profile = new MappingProfile();
             var mappingConfig = new MapperConfiguration(mc =>
             {
@@ -35,8 +34,8 @@ namespace Application
 
             IMapper mapper = mappingConfig.CreateMapper();
             services.AddSingleton(mapper);
-            services.AddResponseCompression(opt => opt.EnableForHttps = true);
 
+            services.AddResponseCompression(opt => opt.EnableForHttps = true);
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
