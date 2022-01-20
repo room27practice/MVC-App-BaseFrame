@@ -3,7 +3,13 @@
 namespace Application.Controllers
 {
     public abstract class BaseController:Controller
-    {    }
+    {   
+    
+    
+    
+    
+    
+    }
 
 
 
