@@ -10,11 +10,22 @@ namespace Infrastructure.Data
             : base(options)
         { }
 
-        public DbSet<Category> Categories { get; set; }
+        public DbSet<Category> Categories { get; set; }      
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
             //Rules about complicated entities!
+
+
+
+
+
+
+
+
+
+
+
             base.OnModelCreating(builder);
         }
     }
