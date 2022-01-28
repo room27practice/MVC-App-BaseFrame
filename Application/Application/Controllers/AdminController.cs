@@ -16,6 +16,5 @@ namespace Application.Controllers
         {
             return View();
         }
-
     }
 }
