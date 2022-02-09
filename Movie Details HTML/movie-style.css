@@ -1,0 +1,56 @@
+body {
+    font: 16px/1.5 'Lato', sans-serif;
+}
+
+p,header,button,ul,ol,span{
+    font:inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+
+img,div,ul,li,ol,span,p,h1,h2,h3,h4,h5{
+    padding:0;
+    margin:0;
+}
+
+*::before,*:after{
+    box-sizing: inherit;
+}
+
+*:not(html){
+    box-sizing:inherit;
+}
+
+a{ 
+    text-decoration: none;
+}
+
+div.cntnt{
+    max-width: 50rem;
+    margin:auto;
+}
+
+p.desc{
+    margin-left:1rem;
+}
+
+div.cntnt>div{
+    display:flex;
+}
+
+
+
+img.poster{
+    max-width:15rem;
+    height: 30rem;
+    border-radius: 0 0 1rem 1rem;
+}
+
+div.carousel{
+    width:75%;
+    height:auto;
+
+}

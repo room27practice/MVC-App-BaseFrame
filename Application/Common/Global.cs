@@ -19,10 +19,8 @@ namespace Common
         {
             ["HristovHomePc"] = "Server=DESKTOP-9H4U8QH\\SQLEXPRESS;Database=T34;Trusted_Connection=True;MultipleActiveResultSets=true",
             ["MyConnection"] = "con2",
+            ["HristovSchoolPc"] = "con3",
         };
-
-
-
     }
 
 
